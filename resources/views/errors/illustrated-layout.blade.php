@@ -10,6 +10,9 @@
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
+        <!-- Link rel icon -->
+        <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+
         <!-- Styles -->
         <style>
         html {
