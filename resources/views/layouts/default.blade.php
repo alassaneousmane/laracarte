@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Laravel</title>
+	
+	<title> {{ page_title($title ?? '') }} Laracarte - List of artisans</title>
 
 	{{-- Google Fonts --}}
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
