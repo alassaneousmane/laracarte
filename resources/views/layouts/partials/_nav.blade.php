@@ -6,11 +6,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav">          
-            <li class="nav-item">
+            <li class="{{ set_active_route('home') }} nav-item">
               <a class="nav-link" href="{{ route('home') }}">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="active nav-link" href="{{ route('about') }}">About</a>
+            <li class=" {{ set_active_route('about') }} nav-item">
+              <a class="nav-link" href="{{ route('about') }}">About</a>
             </li>
              <li class="nav-item">
               <a class="nav-link" href="hhttp://laracarte.herokuapp.com/artisans">Artisans</a>
