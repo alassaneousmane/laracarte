@@ -10,10 +10,10 @@
               <a class="nav-link" href="{{ route('home') }}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('about') }}">About</a>
+              <a class="active nav-link" href="{{ route('about') }}">About</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="http://blog.bootswatch.com">Artisans</a>
+              <a class="nav-link" href="hhttp://laracarte.herokuapp.com/artisans">Artisans</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download">Planet <span class="caret"></span></a>
@@ -31,16 +31,16 @@
               </div>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="http://blog.bootswatch.com">Contact</a>
+              <a class="nav-link" href="http://laracarte.herokuapp.com/contact">Contact</a>
             </li>
           </ul>
 
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="http://builtwithbootstrap.com/" target="_blank">Login</a>
+              <a class="nav-link" href="http://laracarte.herokuapp.com/auth/login" target="_blank">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://wrapbootstrap.com/?ref=bsw" target="_blank">Register</a>
+              <a class="nav-link" href="http://laracarte.herokuapp.com/auth/register" target="_blank">Register</a>
             </li>
           </ul>
 
