@@ -16,7 +16,7 @@
 	@include('layouts.partials._nav')
 	{{-- @include('layouts.partials._header') --}}
 	<div class="container">
-	@yield('content')		
+		@yield('content')		
 	</div>
 	@include('layouts.partials._footer')
 
