@@ -1,11 +1,11 @@
 @component('mail::message')
 #&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hey Admin,
 
-- {{ $name }}
-- {{ $email }}
+- {{ $msg->name }}
+- {{ $msg->email }}
 
 @component('mail::panel')
-- {{ $msg }}
+- {{ $msg->message }}
 @endcomponent
 
 
