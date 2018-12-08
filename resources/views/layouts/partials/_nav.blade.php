@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+<div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
       <div class="container">
         <a href="#" class="navbar-brand">{{ config('app.name') }}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

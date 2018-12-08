@@ -20,7 +20,7 @@ class ContactsController extends Controller
 
         $message = Message::create($request->only('name', 'email', 'message'));
 
-    	Mail::to(config('laracarte.admin_support_email'))->send(new ContactMessageCreated($message));
+    	Mail::to(config('laracarte.admin_support_email'))->queue(new ContactMessageCreated($message));
     
     	flashy()->success('Merci de votre message.Nous vous repondrons dans les brefs délais');
 
