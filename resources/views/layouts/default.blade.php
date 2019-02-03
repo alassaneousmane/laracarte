@@ -44,5 +44,6 @@
 <script src="https://bootswatch.com/_assets/js/custom.js"></script>
 <script src="//code.jquery.com/jquery.min.js"></script>
 @include('flashy::message')
+<script src="{{ asset('/js/larails.js') }}"></script>
 </body>
 </html>
