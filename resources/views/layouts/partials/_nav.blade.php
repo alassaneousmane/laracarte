@@ -40,10 +40,10 @@
          <a class="dropdown-item" href="{{ route('post.create') }}">Créer un article</a>
          @endif
        </div>
-     </li>
+     </li>{{-- 
      <li class=" {{ set_active_route('contact') }} nav-item">
       <a class="nav-link" href="{{ route('contact') }}">Contact ({{number_of_messages()}})</a>
-    </li>
+    </li> --}}
   </ul>
 
   <!-- Right Side Of Navbar -->

@@ -13,4 +13,11 @@ class Post extends Model
     {
     	return $this->belongsTo('App\User');
     }
+
+    // On déclare la relation n:n
+    // Ça se traduit par : un post peut être lié à plusieurs tags
+    public function tags()
+    {
+    	return $this->belongsToMany('App\Tag');
+    }
 }

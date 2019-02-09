@@ -22,7 +22,9 @@
       <p>Me contacter</p>
       <div class="contact_channel" style="margin-left: -35px">
         <ul style="list-style-type: none; ">
-          <li><i class="fa fa-envelope"></i> Email</li>
+
+    
+          <li><i class="fa fa-envelope"></i> <a href="{{ route('contact') }}" class="text-muted" id="contact">Contact</a></li>
           <li><i class="fa fa-comment-alt"></i> Chat</li>
           <li><i class="fab fa-youtube"></i> Chaine Youtube</li>
           <li><i class="fa fa-info-circle"></i> À propos</li>

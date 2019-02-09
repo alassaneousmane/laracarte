@@ -1,5 +1,9 @@
 @extends('layouts.default', ['title' => 'Home'])
 
 @section('content')
-<h1 class="text-center">Map here !!!!!!</h1>
+
+<img src="{{ asset('/svg/map.png')}}" alt="Google Map" title="Google Map" class="img-thumbnail">
+
+<br>
+
 @stop
