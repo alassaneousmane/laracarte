@@ -45,7 +45,8 @@ class PostController extends Controller
 
         if(isset($inputs['tags']))
         {
-            $tagRepository->store($p, $inputs['tags']);
+            
+            $tagRepository->store($post, $inputs['tags']);
         }
 
         return redirect(route('post.index'));

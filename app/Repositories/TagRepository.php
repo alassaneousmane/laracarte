@@ -19,6 +19,7 @@ class TagRepository
 	*/
 	public function store($post, $tags)
 	{
+
 		$tags = explode(',', $tags);
 
 		foreach ($tags as $tag) {
@@ -27,7 +28,8 @@ class TagRepository
 
 			$tag_url = Str::slug($tag);
 
-			$tag_ref = $this->tag->where('tag_url', $tag_url)->first();
+			
+			$tag_ref = $this->tag->where('tag_url', $tag)->first();
 
 
 			if(is_null($tag_ref)) 
